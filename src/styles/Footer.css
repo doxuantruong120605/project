@@ -1,0 +1,70 @@
+.hr-custom {
+    border: 0;
+    border-top: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h4 {
+    color: aqua;
+    margin: 0; 
+    font-size: 18px; 
+    line-height: 1.5; 
+  }
+  
+  /* Kiểu cho thanh menu */
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  
+  .menu-bar ul li {
+    color: #fff; /* Đổi màu chữ tùy thích */
+  }
+  
+  /* Trong file CSS của bạn */
+  .social-media-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Khoảng cách từ menu bar */
+  }
+  
+  .social-media-logos a {
+    margin: 0 60px; /* Khoảng cách giữa các logo */
+  }
+  
+  /* CSS cho các logo */
+  .social-logo {
+    width: 40px; /* Điều chỉnh kích thước của logo */
+    height: auto;
+    border: none; /* Loại bỏ viền */
+    filter: brightness(500%) contrast(200%);
+  }
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 3px;
+  }
+  
+  .footer-links a:hover {
+    color: #00e1ff; /* Màu chữ khi hover */
+  }
+  .footer-bottom {
+    text-align: center; /* Để căn giữa nội dung */
+    margin-top: 20px; /* Khoảng cách từ phần trên xuống phần dưới */
+  }
+  
+  .footer-text {
+    font-size: 14px; /* Điều chỉnh kích thước font nếu cần */
+    color: #fff; /* Đổi màu chữ nếu cần */
+  }
+  

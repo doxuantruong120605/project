@@ -1,0 +1,16 @@
+.image_youfrom {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  transition: transform .3s;
+}
+
+.image_youfrom:hover {
+  transform: scale(1.5);
+}
+
+.Athletes {
+  display: block;
+  width: 100%;
+}
+
