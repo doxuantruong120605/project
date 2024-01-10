@@ -14,3 +14,37 @@
   width: 100%;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Thay đổi giữa các cột */
+}
+
+.flex-item {
+  width: calc(20% - 10px); /* 20% width và 10px margin giữa các cột */
+  margin-bottom: 10px; /* Thêm margin dưới nếu muốn */
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* Thêm border nếu cần thiết */
+  padding: 10px;
+}
+
+.search {
+  border: 1px solid black;
+}
+
+#search {
+  width: 1000px;
+  height: 90px;
+  margin-left: 95px;
+}
+
+.click {
+  width: 60px;
+  height: 60px;
+  border: none;
+}
+
+.d-flex{
+  margin-bottom: 75px;
+  margin-left: 100px;
+}

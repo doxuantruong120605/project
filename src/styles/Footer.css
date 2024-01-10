@@ -11,7 +11,7 @@
     line-height: 1.5; 
   }
   
-  /* Kiểu cho thanh menu */
+ 
   .menu-bar ul {
     list-style: none;
     display: flex;
@@ -20,26 +20,25 @@
   }
   
   .menu-bar ul li {
-    color: #fff; /* Đổi màu chữ tùy thích */
+    color: #fff; 
   }
   
-  /* Trong file CSS của bạn */
+  
   .social-media-logos {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Khoảng cách từ menu bar */
+    margin-top: 20px; 
   }
   
   .social-media-logos a {
-    margin: 0 60px; /* Khoảng cách giữa các logo */
+    margin: 0 12.5px;
   }
   
-  /* CSS cho các logo */
   .social-logo {
-    width: 40px; /* Điều chỉnh kích thước của logo */
+    width: 40px; 
     height: auto;
-    border: none; /* Loại bỏ viền */
+    border: none; 
     filter: brightness(500%) contrast(200%);
   }
   .footer-links {
@@ -56,15 +55,39 @@
   }
   
   .footer-links a:hover {
-    color: #00e1ff; /* Màu chữ khi hover */
+    color: #00e1ff; 
   }
   .footer-bottom {
-    text-align: center; /* Để căn giữa nội dung */
-    margin-top: 20px; /* Khoảng cách từ phần trên xuống phần dưới */
+    text-align: center; 
+    margin-top: 20px; 
   }
   
   .footer-text {
-    font-size: 14px; /* Điều chỉnh kích thước font nếu cần */
-    color: #fff; /* Đổi màu chữ nếu cần */
+    font-size: 14px;
+    color: #fff; 
   }
   
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  
+  .footer-links a:hover {
+    color: #00e1ff; 
+  }
+  .social-logo {
+    width: 40px; 
+    height: auto;
+    border: none; 
+    filter: brightness(105%) contrast(150%);
+    border-radius: 10px;
+    margin-top: 20px;
+  }
