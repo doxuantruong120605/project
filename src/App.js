@@ -5,6 +5,7 @@ import Navbar from './compoments/Navbar';
 import Home from './pages/Home';
 import Footer from './compoments/Footer'
 import Athletes from './pages/Athletes';
+import Lets_move from './pages/Lets_move';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element ={<Home />} />
       <Route path="Athletes" element ={<Athletes />} />
+      <Route path="Let_move" element ={<Lets_move />}/>
     </Routes>
       <Footer/>
   </Router>
