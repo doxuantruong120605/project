@@ -7,7 +7,17 @@ import donovan from '../assets/donovan.jpg';
 import leona from '../assets/leona.jpg';
 import ellis from '../assets/ellis.jpg';
 import kilde from '../assets/kilde.jpg';
-import the_gem from '../assets/the_gem.png'
+import the_gem from '../assets/the_gem.png';
+import streetbmx from '../assets/streetbmx.mp4';
+import alpine from '../assets/alpine.jpg';
+import navajo from '../assets/navajo.png';
+import introduce from '../assets/introduce.jpg';
+import Originals1 from '../assets/Originals1.jpg';
+import Originals2 from '../assets/Originals2.jpg';
+import Originals3 from '../assets/Originals3.jpg';
+import Originals4 from '../assets/Originals4.jpg';
+import Originals5 from '../assets/Originals5.jpg';
+import Originals6 from '../assets/Originals6.jpg';
 
 
 
@@ -72,7 +82,7 @@ function Home () {
           </div>
               
           <div>
-            <h1 class="text-start text-wrap fw-bold" style={{fontSize : 50}}># Olympic Opening Ceremony</h1>
+            <h1 class="caption text-start text-wrap fw-bold" style={{fontSize : 90}}># Opening Ceremony</h1>
           </div>
             <br/>
           <div>
@@ -81,7 +91,7 @@ function Home () {
           <br/>
 
           <div>
-            <h1 class="text-start text-wrap  fw-bold " style={{fontSize : 50}}># Focus Point</h1>
+            <h1 class="caption text-start text-wrap  fw-bold " style={{fontSize : 90}}># Focus Point</h1>
           </div>
           <br/>
 
@@ -154,6 +164,103 @@ function Home () {
               </div>
             </div>
           </div>
+
+          <div class="focus-point3">
+              <div class="container3">
+                <div class="imagenew">
+                <video src={streetbmx} autoPlay loop muted class="image2"/>
+                  <div>
+                  <br/>
+                  <h3 class="new text-sm-start fw-normal">
+                    The great skill shows of a foreign
+                    <br/>guy show us the class of a
+                    <br/>cycling artist
+                  </h3>
+                </div>
+                </div>
+              </div>
+
+              <div class="container3">
+                <div class="imagenew">
+                <img src={alpine} class="image2"/>
+                  <div>
+                  <br/>
+                  <h3 class="new text-sm-start fw-normal">
+                    Alpine ski World Cup 23/24:
+                    <br/>Marco Odermatt wins Wengen
+                    <br/>classic downhill as Kilde crashes
+                    <br/>out - Results
+                  </h3>
+                </div>
+                </div>
+              </div>
+
+              <div class="container3">
+                <div class="imagenew">
+                  <img src={navajo} class="image2"/>
+                  <div>
+                  <br/>
+                  <h3 class="new text-sm-start fw-normal">
+                   16-year-old Navajo boxer
+                   <br/>Mariah Bahe í fighting against
+                   <br/>all odds to become the first
+                   <br/>female Native American
+                   <br/>Olympic boxer
+                  </h3>
+                </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="introduce" >
+            <div class="introdution text-start ">
+              <h1 class="text_intro" >
+                     PARIS 2024 
+                <br/>OFFICIAL 
+                <br/>HOSPITALITY
+              </h1>
+              <p class="intro_text" style={{fontSize : 19.5}} >Attend the Olympic Games like never before with <b>Paris 
+                <br/>2024 Official Hospitality Packages.</b> 
+                <br/>Use your @Visa, the Official Way to Pay</p>
+              <button type="button" class="btn btn-dark" >Learn More</button>
+            </div>
+            <div class="indotruction_image">
+              <img src={introduce} />
+            </div>
+          </div>
+
+          <div class="originals_spotlight">
+            <h1 class="text text-start">Originals in the spotlight</h1>
+          <div class="originals">
+            <div class="spotlight">
+              <img src={Originals1} class="image_originals"/>
+            </div>
+            <div class="spotlight">
+              <img src={Originals2} class="image_originals"/>
+            </div>
+            <div class="spotlight">
+              <img src={Originals3} class="image_originals"/>
+            </div>
+            <div class="spotlight">
+              <img src={Originals4} class="image_originals"/>
+            </div>
+            <div class="spotlight">
+              <img src={Originals5} class="image_originals"/>
+            </div>
+            <div class="spotlight">
+              <img src={Originals6} class="image_originals"/>
+            </div>
+            </div>
+          </div>
+
+
+         
+
+          
+
+          
+
+          
 
 
 
