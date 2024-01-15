@@ -1,13 +1,12 @@
 import React from 'react'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logochallenge from '../assets/logochallenge.jpg';
+
 
 
 function image_letmove() {
   return (
     <div className="App">
       <div className="background-image">
-        <img src={logochallenge} alt="logo" className="" />
         <div>
         <h1 className='font-text '  style={{ marginBottom: '60px' }}>STREET CHALLENGE</h1>
         </div>

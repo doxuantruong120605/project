@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Opening_1 from '../assets/opening_1.jpg'
-import Opening_2 from '../assets/opening_2.jpg';
-import Opening_3 from '../assets/opening_3.jpg';
+import Opening_1 from '../assets/opening_1.jpg';
+import Opening_2 from '../assets/Opening_2.jpg';
+import Opening_3 from '../assets/Opening_3.jpg';
 
 const Openings = {
   width: '100%',
@@ -39,6 +39,10 @@ function Opening() {
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
       </button>
+      <div style={{marginTop : 15}}>
+        <p style={{fontSize : 20}} ><b>DESCRIPTION</b>: The images above are some of the most beautiful images that show us the excitement and beauty of the Olympics here. The Olympics are not only a place for competition between national players but also a place to bond the friendship of countries around the world, promote friendly global cooperation and develop together...
+​</p>
+      </div>
     </div>
   );
 }

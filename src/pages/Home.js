@@ -18,6 +18,9 @@ import Originals3 from '../assets/Originals3.jpg';
 import Originals4 from '../assets/Originals4.jpg';
 import Originals5 from '../assets/Originals5.jpg';
 import Originals6 from '../assets/Originals6.jpg';
+import milano26 from '../assets/milano26.jp.jpg';
+import la28 from '../assets/la28.jpg';
+import brisbane32 from '../assets/brisbane32.jpg';
 
 
 
@@ -82,7 +85,7 @@ function Home () {
           </div>
               
           <div>
-            <h1 class="caption text-start text-wrap fw-bold" style={{fontSize : 90}}># Opening Ceremony</h1>
+            <h1 class="caption text-start text-wrap fw-bold" style={{fontSize : 50}}># Opening Ceremony</h1>
           </div>
             <br/>
           <div>
@@ -91,7 +94,7 @@ function Home () {
           <br/>
 
           <div>
-            <h1 class="caption text-start text-wrap  fw-bold " style={{fontSize : 90}}># Focus Point</h1>
+            <h1 class="caption text-start text-wrap  fw-bold " style={{fontSize : 50}}># Focus Point</h1>
           </div>
           <br/>
 
@@ -250,6 +253,18 @@ function Home () {
             <div class="spotlight">
               <img src={Originals6} class="image_originals"/>
             </div>
+            </div>
+          </div>
+
+          <div class="decan">
+            <div class="decan_image">
+              <img src={milano26} />
+            </div>
+            <div  class="decan_image">
+              <img src={la28} />
+            </div>
+            <div  class="decan_image">
+              <img src={brisbane32} />
             </div>
           </div>
 

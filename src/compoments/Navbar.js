@@ -24,9 +24,11 @@ function Navbar () {
                       Olympic Games 
                     </Link>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item" href="#">Brisbane 2032</a></li>
+                      <li><a class="dropdown-item" href="#">LA 2028</a></li>
+                      <li><a class="dropdown-item" href="#">Dakar 2026</a></li>
+                      <li><a class="dropdown-item" href="#">Milano Cortina 2026</a></li>
+                      <li><a class="dropdown-item" href="#">Paris 2024</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -39,7 +41,7 @@ function Navbar () {
                     <Link to="News" class="nav-link active" >News</Link>
                   </li>
                   <li class="nav-item">
-                    <Link to="Olympic_channel" class="nav-link active" >Olympic Channel</Link>
+                    <Link to="History" class="nav-link active" >History</Link>
                   </li>
                   <li class="nav-item">
                     <Link to="Let_Move" class="nav-link active" >Let`s Move</Link>

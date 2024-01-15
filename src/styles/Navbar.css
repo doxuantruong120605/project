@@ -80,6 +80,7 @@
   .image {
     max-width: 40%;
     margin-right: 80px;
+    margin-left: 50px;
     
   }
   
@@ -153,12 +154,10 @@
 }
 
 .caption {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.image3{
-  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(128, 128, 128);
+  margin-left: 25px;
 }
 
 .focus-point3 {
@@ -205,7 +204,7 @@
 }
 
 .originals_spotlight {
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(240, 240, 240);
   width: auto;
   height: 600px;
   margin: 200px 0px;
@@ -228,5 +227,23 @@
 
 .spotlight:hover img {
   transform: scale(1.1);
+}
+
+.decan {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 240px;
+  border: none;
+  padding: 20px 0px;
+  margin-top: -100px;
+  margin-bottom: 150px;
+  background-color: rgb(249, 249, 249);
+  border-radius: 2%;
+}
+
+.decan_image{
+  border: none;
+  background-color: white;
+ 
 }
 
