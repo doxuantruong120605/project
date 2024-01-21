@@ -1,0 +1,58 @@
+.title_mariah{
+    margin: 75px 50px 60px;
+}
+
+.new_mariah{
+    margin-left: 50px;
+}
+
+.image_mariah{
+    margin-top: 100px;
+}
+
+.mariah_new{
+    display:  flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.news_mariah_other{
+    display: flex;
+    justify-content: space-around;
+}
+
+.news_mariah_other{
+    border-top: 1px solid rgb(230, 230, 230);
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.textst_mariah{
+    padding-left: 10px;
+    transition: text-decoration 0.3s ease-in-out 0s;
+}
+
+.textst_mariah:hover{
+    text-decoration: underline;
+}
+.alpine{
+    display:  flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(210, 210, 210);
+    height:  80px;
+    width: 220px;
+    padding-top:3.5px ;
+    padding-right: 50px;
+}
+
+.alpine_skiing{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top:  30px;
+}
+
+.title_mariah{
+    margin-top: 12px;
+}
+

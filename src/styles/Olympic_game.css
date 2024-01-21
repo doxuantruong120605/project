@@ -1,0 +1,143 @@
+.olympic_game {
+    display: flex;
+    justify-content: space-around;
+    margin: 85px 0px;
+}
+
+.tille {
+    padding-top: 25px;
+}
+
+ 
+#banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-reight {
+    background-color: white;
+    border-radius: 2%;
+    height: 350px;
+    width: 250px;
+    margin-top: 130px;
+    margin-right: 40px;
+}
+
+.images {
+    width: 200px;
+    padding-top: 80px;
+}
+
+.decan {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 170px;
+    border: none;
+    padding: 10px 0px;
+    margin-top: 65px;
+    margin-bottom: 150px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 2%;
+  }
+  
+  .decan_image{
+    border: none;
+    background-color: white;
+    border-radius: 2%;
+  
+   
+}
+
+.around {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 15px;
+}
+
+.around-1{
+    background-image: url(../assets/images1.jpg);
+    width: 850px;
+    height: 360px;
+    border-radius: 1.5%;
+}
+
+.around-2{
+    background-image: url(../assets/images2.jpg);
+    width: 390px;
+    height: 360px;
+    border-radius: 1.5%;
+}
+
+.around-3{
+    background-image: url(../assets/images3.jpg);
+    width: 390px;
+    height: 360px;
+    border-radius: 1.5%;
+}
+
+.around-4{
+    background-image: url(../assets/images4.jpg);
+    width: 850px;
+    height: 360px;
+    border-radius: 1.5%;
+}
+
+.around-5{
+    background-image: url(../assets/iamges5.jpg);
+    width: 850px;
+    height: 360px;
+    border-radius: 1.5%;
+}
+
+.around-6{
+    background-image: url(../assets/images6.jpg);
+    width: 390px;
+    height: 360px;
+    border-radius: 1.5%;
+}
+
+.text {
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.introduce {
+    display: flex;
+    justify-content: end;
+    border-top:1px solid rgb(220, 220, 220) ;
+    margin-left: 70px;
+    margin-right: 50px;
+    padding-top: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  
+  .introdution{
+    padding-right: 95px;
+  }
+
+  .butonn {
+    width: 400px;
+    height: 50px;
+  }
+
+  .newspaper {
+    display: flex;
+    justify-content: start;
+    border-top: 1px solid rgb(220, 220, 220);
+    padding-top: 50px;
+    margin-right: 50px;
+    padding-left: 65px;
+    margin-bottom: 70px;
+  }
+
+  .para-text {
+    padding-left: 90px;
+  }
+
+
+
+
+
+
+

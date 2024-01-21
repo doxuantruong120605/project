@@ -1,0 +1,58 @@
+.title_loena{
+    margin: 75px 50px 60px;
+}
+
+.new_loena{
+    margin-left: 50px;
+}
+
+.image_loena{
+    margin-top: 100px;
+}
+
+.loena_new{
+    display:  flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.news_loena_other{
+    display: flex;
+    justify-content: space-around;
+}
+
+.news_loena_other{
+    border-top: 1px solid rgb(230, 230, 230);
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.textst_loena{
+    padding-left: 10px;
+    transition: text-decoration 0.3s ease-in-out 0s;
+}
+
+.textst_loena:hover{
+    text-decoration: underline;
+}
+.figure{
+    display:  flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(210, 210, 210);
+    height:  80px;
+    width: 320px;
+    padding-top:3.5px ;
+    padding-right: 50px;
+}
+
+.figure_skating{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top:  30px;
+}
+
+.title_loena{
+    margin-top: 12px;
+}
+

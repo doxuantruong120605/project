@@ -18,7 +18,7 @@ function Athletes () {
             <br/>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search for an athlete " aria-label="Search" id="search"/>
-                <button class="btn" type="submit"><img src={search} class="click"/></button>
+                <button class="btn" type="submit"><img src={search} class="click_search"/></button>
              </form>
 
            

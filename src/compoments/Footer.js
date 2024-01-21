@@ -59,12 +59,22 @@ function Footer() {
       </div>
       <hr></hr>
       <div className='ft-two'>
-      <div className="footer-links">
+      {/* <div className="footer-links">
           <a href="link_to_cookie_policy">Cookie Policy</a>
           <a href="link_to_cookie_settings">Cookie Settings</a>
           <a href="link_to_privacy_policy">Privacy Policy</a>
           <a href="link_to_terms_of_service">Terms of Service</a>
-      </div>
+      </div> */}
+      <iframe className='excutemaps'
+                  title="Google Maps"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3724.1127483277796!2d105.770377!3d21.0281742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab00954decbf%3A0xdb4ee23b49ad50c8!2zRlBUIEFwdGVjaCBIw6AgTuG7mWkgLSBI4buHIHRo4buRbmcgxJHDoG8gdOG6oW8gbOG6rXAgdHLDrG5oIHZpw6puIHF14buRYyB04bq_!5e0!3m2!1svi!2s!4v1704475879765!5m2!1svi!2s"
+                  width="1200"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"    
+                  referrerPolicy="no-referrer-when-downgrade"
+      ></iframe>
       <div className="social-media-logos">
         <a href="link_to_facebook_page">
          <img src={Facebooklogo} alt="Facebook" className="social-logo" />
@@ -89,8 +99,23 @@ function Footer() {
         </a>
        </div>
       </div>
-    
-     
+      <div className="faq-section">
+        <h4>Frequently Asked Questions (FAQ)</h4>
+        <ul>
+        <li>
+      <strong>Q1:</strong> What is the Olympic Games?
+    </li>
+    <li>
+      <strong>Q2:</strong> How can I buy tickets?
+    </li>
+    <li>
+      <strong>Q3:</strong> Where can I watch live events?
+    </li>
+    <li>
+      <strong>Q4:</strong> How long until the next Olympics?
+    </li>
+    </ul>
+      </div>
     </footer>
   );
 }

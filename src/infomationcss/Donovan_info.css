@@ -1,0 +1,58 @@
+.title_donovan{
+    margin: 75px 50px 60px;
+}
+
+.new_donovan{
+    margin-left: 50px;
+}
+
+.image_donovan{
+    margin-top: 100px;
+}
+
+.donovan_new{
+    display:  flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.news_other{
+    display: flex;
+    justify-content: space-around;
+}
+
+.news_other{
+    border-top: 1px solid rgb(230, 230, 230);
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.textst{
+    padding-left: 10px;
+    transition: text-decoration 0.3s ease-in-out 0s;
+}
+
+.textst:hover{
+    text-decoration: underline;
+}
+.batket{
+    display:  flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(210, 210, 210);
+    height:  80px;
+    width: 250px;
+    padding-top:3.5px ;
+    padding-right: 35px;
+}
+
+.batketball{
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top:  30px;
+}
+
+.title_bat{
+    margin-top: 12px;
+}
+

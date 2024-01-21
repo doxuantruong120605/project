@@ -33,12 +33,12 @@
 }
 
 #search {
-  width: 1000px;
+  width: 900px;
   height: 90px;
   margin-left: 95px;
 }
 
-.click {
+.click_search {
   width: 60px;
   height: 60px;
   border: none;
@@ -46,5 +46,5 @@
 
 .d-flex{
   margin-bottom: 75px;
-  margin-left: 100px;
+  margin-left: 80px;
 }

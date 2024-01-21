@@ -1,0 +1,89 @@
+.containerr {
+    background-image: url(../assets/brisbane_image.jpg);
+    width: auto;
+    height: 800px;
+}
+
+.contai-text {
+    columns:  5;
+    margin-top: 130px;
+    background-color: white;
+    border-radius: 1%;
+    padding-top: 30px;
+    width: 90%;
+}
+
+.image-bri {
+    margin-top: 110px;
+    background-color: white;
+    padding: 35px 10px;
+    border-radius: 2.5%;
+}
+
+.clickk{
+    background-color: black;
+    padding-right: 50px;
+    text-decoration: none;
+    border-radius: 5%;
+
+}
+
+.clickk:hover {
+    background-color: blue;
+}
+
+.new-hot {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 37px;
+    margin-top: 280px;
+    margin-bottom: 50px;
+}
+
+.image-newss {
+    overflow: hidden;
+    position: relative; 
+}
+
+.tile-new {
+    margin-top: 18px;
+}
+
+.image-newss img {
+     transition: transform 0.3s ease-in-out 0s;
+}
+
+.image-newss:hover img {
+     transform: scale(1.1);
+}
+
+.new-hot2{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 52px;
+
+}
+
+.tile-new2 {
+    margin-top: 10px;
+   
+}
+
+.main-information{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid rgb(230, 230, 230);
+    padding-top: 30px;
+    margin: 120px 50px;
+}
+
+.tile-new2{
+    transition: text-decoration 0.3s ease-in-out;
+}
+
+.tile-new2:hover {
+    text-decoration: underline;
+}
+
+
+

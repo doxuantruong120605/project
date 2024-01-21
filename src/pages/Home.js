@@ -21,6 +21,8 @@ import Originals6 from '../assets/Originals6.jpg';
 import milano26 from '../assets/milano26.jp.jpg';
 import la28 from '../assets/la28.jpg';
 import brisbane32 from '../assets/brisbane32.jpg';
+import CountdownTime from '../compound_code/CountdownTime';
+import { Link } from "react-router-dom";
 
 
 
@@ -29,15 +31,13 @@ function Home () {
       <div className="home">
             <div>
             <br/>
-            <h3 class="text-center">Olympic Games Paris 2024
-
-          <p style={{fontSize : 16}}> 26 July - 11 August, 2024</p></h3>
+                <CountdownTime/>
           </div>
           <br></br>
 
           <div id="banner">
               <div class="box-left">
-                <p>26Jul - 11Aug</p>
+                <p style={{fontSize : 25}} >26Jul - 11Aug</p>
                   <h1 style={{fontSize : 100}} class="fw-bold fst-italic">
                       <span>PARIS</span>
                       <br/>
@@ -58,7 +58,7 @@ function Home () {
           </div>
           <hr></hr>
 
-          <div class="contai-text">
+          <div class="">
           <h1 class="text-center">Olympic</h1>
             <div>
               <p class="text-center ">
@@ -100,29 +100,31 @@ function Home () {
 
           <div class="focus_point">
            <div class="container1">
-            <div class="imagenew image1">
-              <img src={donovan} class=""/>
+            
+            <Link to="Donovan_info" style={{ textDecoration : "none"}}><div class="imagenew image1">
+              <img src={donovan} class="" style={{width : 440 , height : 270 }}   />
               <div class="attention_title1">
                 <br/>
-                <h3 class="new text-sm-start fw-normal" >Donovan Mitchell resolute on competing
+                <h3 class="new text-sm-start fw-normal"  style={{color : "black" }}>Donovan Mitchell resolute on competing
                 <br/>for Team USA at Paris 2024: “That’s the
                 <br/> goal” 
                 </h3>
               </div>
-            </div>
+            </div></Link> 
             </div>
 
+        <Link to="Leona_info" style={{ textDecoration : "none" }}>
             <div class="container1">
               <div class="imagenew ">
-                <img src={leona}/>
+                <img src={leona} style={{width : 720}} />
                 <div>
                   <br/>
-                  <h3 class="new text-sm-start fw-normal">ISU European Figure Skating Championships 2024: Loena 
+                  <h3 class="new text-sm-start fw-normal" style={{color :'black'}}>ISU European Figure Skating Championships 2024: Loena 
                   <br/> Hendrickx leads Belgian one-two in short program
                   </h3>
                 </div>
               </div>
-            </div>
+            </div></Link>
           </div>
 
           <div class="focus_point2">
@@ -183,12 +185,12 @@ function Home () {
                 </div>
               </div>
 
-              <div class="container3">
+              <Link to='Marco_info' style={{ textDecoration : "none" }}><div class="container3">
                 <div class="imagenew">
                 <img src={alpine} class="image2"/>
                   <div>
                   <br/>
-                  <h3 class="new text-sm-start fw-normal">
+                  <h3 class="new text-sm-start fw-normal" style={{color : 'black'}}>
                     Alpine ski World Cup 23/24:
                     <br/>Marco Odermatt wins Wengen
                     <br/>classic downhill as Kilde crashes
@@ -196,14 +198,16 @@ function Home () {
                   </h3>
                 </div>
                 </div>
-              </div>
+              </div></Link>
 
+
+           <Link to='Mariah_info' style={{ textDecoration : "none" }}>
               <div class="container3">
                 <div class="imagenew">
                   <img src={navajo} class="image2"/>
                   <div>
                   <br/>
-                  <h3 class="new text-sm-start fw-normal">
+                  <h3 class="new text-sm-start fw-normal" style={{color : "black"}}>
                    16-year-old Navajo boxer
                    <br/>Mariah Bahe í fighting against
                    <br/>all odds to become the first
@@ -212,22 +216,22 @@ function Home () {
                   </h3>
                 </div>
                 </div>
-              </div>
+              </div></Link>
           </div>
 
-          <div class="introduce" >
-            <div class="introdution text-start ">
-              <h1 class="text_intro" >
+          <div class="information" >
+            <div class="infor text-start ">
+              <h1 class="text_infor" >
                      PARIS 2024 
                 <br/>OFFICIAL 
                 <br/>HOSPITALITY
               </h1>
-              <p class="intro_text" style={{fontSize : 19.5}} >Attend the Olympic Games like never before with <b>Paris 
+              <p class="infor_text" style={{fontSize : 19.5}} >Attend the Olympic Games like never before with <b>Paris 
                 <br/>2024 Official Hospitality Packages.</b> 
                 <br/>Use your @Visa, the Official Way to Pay</p>
-              <button type="button" class="btn btn-dark" >Learn More</button>
+              <button type="button" class="buton btn btn-dark" >Learn More</button>
             </div>
-            <div class="indotruction_image">
+            <div class="infor_image">
               <img src={introduce} />
             </div>
           </div>

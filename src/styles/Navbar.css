@@ -134,6 +134,7 @@
 
 .new {
   transition: text-decoration 0.3s ease-in-out;
+  font-size: 23px;
 }
 
 .new:hover {
@@ -149,8 +150,8 @@
 }
 
 .image2 {
-  width: 440px;
-  height: 240px;
+  width: 390px;
+  height: 220px;
 }
 
 .caption {
@@ -168,25 +169,25 @@
   margin-right: 35px;
 }
 
-.introduce {
+.information {
   display: flex;
   justify-content: end;
-  border-top:1px solid grey ;
-  margin-left: 70px;
+  border-top:1px solid rgb(220, 220, 220) ;
+  margin-left: 50px;
   margin-right: 50px;
-  padding-top: 30px;
+  padding-top: 50px;
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.introdution{
-  padding-right: 95px;
+.infor{
+  padding-right: 50px;
 }
 
-.text_intro {
-  font-size: 80px;
+.text_infor {
+  font-size: 50px;
 }
-.btn {
+.buton {
   width: 160px;
   height: 50px;
 }
@@ -198,8 +199,8 @@
 }
 
 .image_originals {
-  width: 210px;
-  height: 370px;
+  width: 200px;
+  height: 360px;
   border-radius: 2%;
 }
 
@@ -232,9 +233,9 @@
 .decan {
   display: flex;
   justify-content: space-around;
-  margin: 0px 240px;
+  margin: 0px 170px;
   border: none;
-  padding: 20px 0px;
+  padding: 10px 0px;
   margin-top: -100px;
   margin-bottom: 150px;
   background-color: rgb(249, 249, 249);
@@ -244,6 +245,8 @@
 .decan_image{
   border: none;
   background-color: white;
+  border-radius: 2%;
+
  
 }
 
